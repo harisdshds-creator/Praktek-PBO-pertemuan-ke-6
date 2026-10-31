@@ -9,7 +9,7 @@ public class ManajerBank extends PegawaiBank {
     @Override
     public double hitungGaji() {
         if (targetTercapai) {
-            return gajiPokok + (gajiPokok * 0.20); // Tunjangan 20% jika true
+            return gajiPokok + (gajiPokok * 0.20); // Bonus tunjangan 20%
         } else {
             return gajiPokok;
         }
